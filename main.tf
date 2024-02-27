@@ -32,3 +32,17 @@ module "ec2_instance" {
   }
 }
 
+# module "s3_bucket" {
+#   source  = "terraform-aws-modules/s3-bucket/aws"
+#   version = "~> 3.0"
+
+#   bucket = "kyrylo-module-bucket"
+#   acl    = "private"
+
+#   tags = {
+#     Name        = "Kyrylo bucket"
+#     Environment = "Dev"
+#   }
+# }
+
+
